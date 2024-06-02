@@ -4,7 +4,11 @@ module.exports = {
 	  './messaging/templates/messaging/*.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+		colors: {
+			'twitter-blue': '#1DA1F2',
+		},
+	},
   },
   plugins: [],
 }
